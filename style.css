@@ -28,12 +28,11 @@ img{
     border-radius: 50%;
     height: 8rem;
     width: 8rem;
-    object-fit: cover; /* New Thing */
+    object-fit: cover;
 }
 
 .container{
     height: 20rem;
-    /* margin: 0% 1rem; */
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -72,4 +71,9 @@ img:hover{
     padding: 1rem 2rem;
     border-radius: 2rem;
     cursor:pointer;
+}
+
+#displayboard{
+    margin: 2rem;
+    font-size: 1.5rem;
 }
