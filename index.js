@@ -51,4 +51,5 @@ reset.addEventListener("click", () => {
     compScore = 0;
     userScoreDisplay.innerHTML = userScore;
     compScoreDisplay.innerHTML = compScore;
+    displayBoard.innerHTML = ""
 })
