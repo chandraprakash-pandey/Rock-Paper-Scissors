@@ -5,6 +5,8 @@ let userScoreDisplay = document.querySelector("#Userscore");
 let compScoreDisplay = document.querySelector("#compscore");
 let displayBoard = document.querySelector("#displayboard");
 
+const reset = document.querySelector(".msg")
+
 const options = ["rock", "paper", "scissors"];
 
 function comprandom() {
@@ -43,3 +45,10 @@ document.querySelector("#paper").addEventListener("click", () => {
 document.querySelector("#scissors").addEventListener("click", () => {
     playGame("scissors");
 });
+
+reset.addEventListener("click", () => {
+    userScore = 0;
+    compScore = 0;
+    userScoreDisplay.innerHTML = userScore;
+    compScoreDisplay.innerHTML = compScore;
+})
